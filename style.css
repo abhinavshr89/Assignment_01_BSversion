@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--dark) !important;
+
+}
+
+:root {
+   --bl:black;
+   --dark:#172937;
+   --light:#253644;
+   --avbg:#FFF7EC;
+   --or:#F37021;
+   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
+  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
+  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+  --details-heading:#788189;
+}
+
+
+
+.mainrow{
+    background-color:var(--dark);
+   
+}
+.rightbar{
+    background-color: var(--light);
+    border-radius: 20px;
+}
+.sidebar{
+ 
+    background-color:var(--light);
+}
+
+.wid-box{
+    height: 200px;
+   border-radius: 10px;
+}
+.t-box{
+    height: 300px;
+    border-radius: 10px;
+    background-color: var(--dark);
+}
+.t-box img {
+    width: 100%;
+    height: 120%;
+}
+.wid-box-heading{
+    font-weight: 800;
+}
+.wid-box{
+    background-color: var(--dark);
+}
+.iframe{
+    width: 100%;
+    height: 180px;
+
+}
+iframe{
+    width: 100%;
+    height: 117%;
+}
+
+
+
+
+/* side bar */
+div{
+    /* border:2px solid var(--bl); */
+}
+.sidebar{
+    border-radius: 15px;
+}
+.avatar-box{
+    background-color: var(--avbg);
+    border-radius:35px;
+    
+  
+    
+}
+.avatar-box img{
+   width: 100%;
+   height: 100%;
+   max-width: 200px;
+}
+
+.year-info{
+    font-size: 10px;
+    background-color: var(--dark);
+    border-radius: 20px;
+    display:flex !important;
+    max-width: 200px !important;
+    justify-content:center !important;
+    
+}
+
+.-iconbox i{
+    color: var(--or);
+ 
+}
+
+.bottom-icon i:hover{
+    color: var(--details-heading);
+}
+.details-heading{
+    font-size: 15px;
+    color: var(--details-heading);
+    font-weight: 600;
+
+}
+.details-info{
+    font-size: 12px;
+}
+
+.-iconbox{
+    background-color: var(--dark);
+    border-radius: 10px;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+
+
+div{
+    /* border: 2px solid black; */
+}
+
+/* media queries */
+@media (max-width:1400px) {
+    .sidebar{
+        height: 100vh;
+    }
+    .avatar-box{
+        background-color: var(--avbg);
+        border-radius:35px;
+        width: 200px !important;
+      
+        
+    }
+}

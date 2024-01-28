@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the handle color to transparent */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a color on hover if desired */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Add a background color on hover if desired */
+}
+
+
+@media (min-width:1400px) {
+    .sidebar{
+        height: 100vh;
+        position: sticky;
+        top: 10px;
+        margin-right: 20px !important;
+    }
+}
