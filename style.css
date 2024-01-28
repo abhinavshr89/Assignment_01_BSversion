@@ -24,7 +24,7 @@ html, body {
   --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
-  --details-heading:#788189;
+  --details-heading:#9ba2a8;
 }
 
 
@@ -71,8 +71,26 @@ iframe{
     height: 117%;
 }
 
-
-
+.heading-text {
+    padding-bottom: 5px;
+    font-weight: 800;
+  }
+  
+  .heading-text::after {
+    content: "";
+    background-color: var(--or);
+    display: block;
+    margin-top: 10px;
+    height: 4px;
+    width: 7%;
+    border-radius: 10px;
+  }
+  .heading-text2 {
+    font-weight: 600;
+  }
+.about-me-content{
+    color: var(--details-heading);
+}
 
 /* side bar */
 div{
