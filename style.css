@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:var(--fontcolor);
+    color:var(--white);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -14,6 +14,7 @@ html, body {
 }
 
 :root {
+    --white:white;
     --fontcolor:var(--white)
    --bl:black;
    --dark:#172937;
