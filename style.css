@@ -164,7 +164,7 @@ iframe{
 /* media queries */
 @media (max-width:1400px) {
     .sidebar{
-        height: 100vh;
+        height: 110vh;
     }
     .avatar-box{
         background-color: var(--avbg);
@@ -173,21 +173,44 @@ iframe{
       
         
     }
+    .details-info{
+        font-size: 20px;
+    }
+    .bottom-icon{
+        width: 50px !important;
+    }
+    
 }
 @media (max-width:768px) {
-   
+    .sidebar{
+        height: 110vh;
+    }
      .linkedin-img{
         height: 170px
     }
     .about-me-content{
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 @media (max-width:650px) {
+    .sidebar{
+        height: 110vh;
+    }
     .linkedin-img{
         height: 170px
     }
     .about-me-content{
         font-size: 13px;
+    }
+    .details-info{
+        font-size: 14px;
+    }
+}
+@media (max-width:450px) {
+    .sidebar{
+        height: 100vh;
+    }
+    .details-info{
+        font-size: 12px;
     }
 }
