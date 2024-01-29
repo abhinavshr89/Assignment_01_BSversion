@@ -97,10 +97,7 @@ iframe{
     color: var(--details-heading);
 }
 
-/* side bar */
-div{
-    /* border:2px solid var(--bl); */
-}
+
 .sidebar{
     border-radius: 15px;
 }
