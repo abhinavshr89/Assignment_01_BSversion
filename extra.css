@@ -26,3 +26,12 @@
         margin-right: 20px !important;
     }
 }
+
+.year-info-1{
+    background-color: var(--dark);
+    border-radius: 20px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

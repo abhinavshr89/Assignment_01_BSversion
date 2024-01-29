@@ -27,6 +27,7 @@ html, body {
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
   --details-heading:#9ba2a8;
+
 }
 
 
@@ -43,6 +44,7 @@ html, body {
 .sidebar{
     box-shadow: var(--shadow-1);
     background-color:var(--light);
+    position: relative;
 }
 
 .wid-box{
@@ -164,12 +166,19 @@ iframe{
     width: 100%;
     height: 210px;
 }
+.dn2{
+    display: none !important;
+}
 
+
+.year-info-1,.name-info-1{
+    display: none !important;
+}
 
 /* media queries */
 @media (max-width:1400px) {
     .sidebar{
-        height: 110vh;
+        height: 35vh;
     }
     .year-info{
         font-size:12px;
@@ -194,11 +203,34 @@ iframe{
         box-shadow: var(--shadow-4);
     
     }
-    
+    .avatar-box img{
+        width: 100%;
+        height: 100%;
+        max-width: 200px;
+     }
+.dn{
+    display: none !important;
 }
-@media (max-width:768px) {
+.dn2{
+    display: block !important;
+}
+.year-info-1,.name-info-1{
+    display: block !important;
+}
+
+.newcol{
+    display:block !important;
+}
+.sec-name{
+    font-size: 40px !important;
+}
+}
+
+
+
+@media (max-width:782px) {
     .sidebar{
-        height: 110vh;
+        height: auto !important;
     }
      .linkedin-img{
         height: 170px
@@ -206,10 +238,30 @@ iframe{
     .about-me-content{
         font-size: 20px;
     }
+    .name{
+        font-size: 20px;
+    }
+    .name-info-1 h3{
+        font-size: 15px !important;
+    }
+    .year-info-1{
+        font-size: 10px;
+    }
+    .avatar-box{
+        width: 150px !important;
+        height: 150px;
+    }
+    .newcol{
+        display:block !important;
+    }
+    .sec-name{
+        font-size: 30px !important;
+    }
 }
 @media (max-width:650px) {
     .sidebar{
-        height: 110vh;
+      height: auto !important;
+     
     }
     .linkedin-img{
         height: 170px
@@ -218,17 +270,71 @@ iframe{
         font-size: 13px;
     }
     .details-info{
-        font-size: 14px;
+        font-size: 20px;
     }
+    .dn{
+        display: none !important;
+    }
+    .avatar-box{
+        width: 100px !important;
+        height: 100px;
+    }
+    .sidebar{
+        height: 30vh;
+    }
+    .sec-name{
+        font-size: 25px !important;
+    }
+
+   
 }
 @media (max-width:450px) {
     .sidebar{
-        height: 100vh;
-    }
+    height: auto !important;    }
     .year-info{
         font-size:10px;
     }
     .details-info{
         font-size: 12px;
     }
+    .dn{
+        display: none !important;
+    }
+    name-info-1 h4{
+    
+        font-size: 10px;
+      
+    }
+    .sec-name{
+        font-size: 22px !important;
+    }
+}
+
+
+
+/*  */
+
+
+
+
+
+.newcol{
+    display:none;
+}
+
+
+
+.sec-year{
+    border-radius:5px;
+    background-color: var(--dark);
+    box-shadow:var(--shadow-1);
+}
+.sec-year{
+    width: fit-content;
+    border-radius: 10px;
+    padding: 3px;
+    margin: auto !important;
+}
+div{
+    border: 2px solid black;
 }
