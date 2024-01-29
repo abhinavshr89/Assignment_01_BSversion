@@ -179,7 +179,7 @@ iframe{
 @media (max-width:1400px) {
     .sidebar{
         height: auto !important;
-        padding-bottom: 15px !important;
+        padding-bottom: 20px !important;
     }
     .year-info{
         font-size:12px;
