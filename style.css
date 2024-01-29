@@ -55,7 +55,7 @@ html, body {
     border-radius: 10px;
     background-color: var(--dark);
     box-shadow: var(--shadow-4);
-    overflow: hidden;
+
 }
 .t-box img {
     width: 100%;
@@ -158,6 +158,11 @@ iframe{
 
 .linkedin-img{
    min-height: 170px;
+  
+}
+.linkedin-img img {
+    width: 100%;
+    height: 210px;
 }
 
 
@@ -165,6 +170,9 @@ iframe{
 @media (max-width:1400px) {
     .sidebar{
         height: 110vh;
+    }
+    .year-info{
+        font-size:12px;
     }
     .avatar-box{
         background-color: var(--avbg);
@@ -178,6 +186,13 @@ iframe{
     }
     .bottom-icon{
         width: 50px !important;
+    }
+    .t-box{
+        height: 300px;
+        border-radius: 10px;
+        background-color: var(--dark);
+        box-shadow: var(--shadow-4);
+    
     }
     
 }
@@ -209,6 +224,9 @@ iframe{
 @media (max-width:450px) {
     .sidebar{
         height: 100vh;
+    }
+    .year-info{
+        font-size:10px;
     }
     .details-info{
         font-size: 12px;
