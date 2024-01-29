@@ -178,7 +178,8 @@ iframe{
 /* media queries */
 @media (max-width:1400px) {
     .sidebar{
-        height: 35vh;
+        height: auto !important;
+        padding-bottom: 15px !important;
     }
     .year-info{
         font-size:12px;
